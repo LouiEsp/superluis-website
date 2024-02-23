@@ -1,0 +1,81 @@
+
+
+ @media (max-width: 1200px) {
+  .Sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 5px;
+ }
+
+ .sidebar-link {
+   height: 74px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   cursor: pointer;
+ }
+
+ .sidebar-link:hover {
+   background-color: rgb(228, 228, 228);
+ }
+
+ .sidebar-link img {
+   height: 24px;
+   margin-bottom: 4px;
+ }
+
+ .sidebar-link div{
+   font-size: 10px;
+   font-weight: 500;
+ }
+ } 
+
+ @media (min-width: 1200.1px) {
+  .Sidebar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 250px;
+    background-color: white;
+    z-index: 200;
+    padding-top: 5px;
+ }
+
+ .sidebar-link {
+   height: 74px;
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   flex-direction: row;
+   cursor: pointer;
+ }
+
+ .sidebar-link:hover {
+   background-color: rgb(228, 228, 228);
+ }
+
+ .sidebar-link img {
+   height: 24px;
+   margin-bottom: 4px;
+   margin-right: 25px;
+   margin-left: 25px;
+ }
+
+ .sidebar-link div{
+   font-size: 15px;
+   font-weight: 500;
+ }
+
+ body {
+  /* This style below will be inherited*/
+  padding-top: 80px;
+  padding-left: 280px;
+}
+ }
